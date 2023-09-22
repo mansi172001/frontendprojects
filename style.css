@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Plus+Jakarta+Sans:wght@500&family=Saira:wght@300&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    /* font-family: 'Montserrat', sans-serif; */
+    /* font-family: 'Anton', sans-serif; */
+font-family: 'Caveat', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Plus Jakarta Sans', sans-serif;
+font-family: 'Saira', sans-serif;
+    
+}
+.box h1{
+    text-align: center;
+    padding-bottom: 4px;
+    color: orangered;
+    font-size: 40px;
+    font-weight: 40px;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 34, 34);
+    /* background-image: url("https://images.pexels.com/photos/5820045/pexels-photo-5820045.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+}
+.box{
+    width: 600px;
+    min-height: 500px;
+    /* background-image: url("https://images.pexels.com/photos/5981925/pexels-photo-5981925.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 15px;
+    overflow: auto;
+    border: 2px solid orangered;
+}
+
+#items{
+    padding: 10px;
+    border: 2px solid orangered;
+    /* outline: 0; */
+    /* box-shadow:  0px 0px 2px grey; */
+    font-size:20px ;
+    width: 100%;
+    font-weight: bold;
+    display: block;
+
+}
+#to-do-box{
+    list-style-type: none;
+    margin-top: 20px;
+
+}
+#to-do-box li{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 68, 0, 0.632);
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    font-weight: 900;
+    padding: 10px;
+    border-radius: 7px ;
+    margin-top: 10px;
+}
+.done{
+    text-decoration: line-through;
+    color: black;
+    background-color: rgb(57, 57, 57);
+}
