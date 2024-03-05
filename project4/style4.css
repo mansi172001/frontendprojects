@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+
+}
+#sec1{
+    background-image: url(developer.png);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+#div1{
+    color: white;
+    top: 60px;
+    left: 23%;
+    position: relative;
+    font-size: 30px;
+    line-height: 1.4;
+    font-weight: 300;
+}
+#span1{
+    font-size: 30px;
+}
+#sec2{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+#span2{
+    font-size: 80px;
+}
+#sec3{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    margin: 50px auto;
+    max-width: 1100px;
+  
+}
+.grid_item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.boxdiv{
+    max-width: 320px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+  transition: 0.2s ease-in-out;
+
+  
+}
+.boxdiv:hover{
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.4);
+}
+
+#sec4{
+    display: flex;
+    color: white;
+    
+}
+.d1,.d2{
+    text-align: justify;
+    align-items: center;
+    padding: 5%;
+   
+
+}
+.d1{ 
+    background-color:#515603;
+}
+.d2{
+    background-color: #722300;
+}
+#whole{
+    display: flex;
+}
+h1{  
+    font-size: 40px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
+a:hover{
+    color: white;
+}
+
+
